@@ -1,5 +1,32 @@
+body {
+    background-color: rgb(64, 1, 105);
+}
+
 .everything {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: fantasy;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: rgb(248, 232, 85);
+    font-family: monospace;
+    margin-bottom: 40px;
+}
+
+.button1 {
+    width: 70px;
+    margin-bottom: 50px;
+}
+
+.answer{
+    width: 60px;
 }
