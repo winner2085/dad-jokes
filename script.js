@@ -1,5 +1,7 @@
 const startButton = document.getElementById('submit');
 const jokes = document.getElementById('joke-container');
+const answerButton = document.getElementById('answers');
+const answers = document.getElementById('answer-container');
 
 let jokeList = [
     'My boss said “dress for the job you want, not for the job you have.”',
@@ -29,11 +31,22 @@ let endList = [
 
 let jokeIndex = 0;
 jokes.textContent = jokeList[jokeIndex];
+let answerIndex = 0;
+answer.textContent = endList[answerIndex];
+
 
 let jokeFunction = () =>{
     startButton.addEventListener('click', () =>{
-        jokes.textContent = jokes.textContent = jokeList[jokeIndex];
+        jokes.textContent = = jokeList[jokeIndex];
+    });
+}
+
+let answerFunction = () =>{
+    answerButton.addEventListener('click', () =>{
+        answers.textContent = jokeList[jokeIndex];
     });
 }
 
 jokeFunction ();
+
+console.log(jokeFunction);
